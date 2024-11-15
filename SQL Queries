@@ -1,0 +1,408 @@
+Data Insertion:
+staff
+
+INSERT INTO staff (s_id, s_name)
+VALUES (1, 'Rahim');
+
+INSERT INTO staff (s_id, s_name)
+VALUES (2, 'Karim');
+
+INSERT INTO staff (s_id, s_name)
+VALUES (3, 'Sakib');
+
+child
+
+INSERT INTO child (c_id, c_name, c_birthdate)
+VALUES (1, 'Ifti', 2015);
+
+INSERT INTO child (c_id, c_name, c_birthdate)
+VALUES (2, 'Seyam', 2016);
+
+INSERT INTO child (c_id, c_name, c_birthdate)
+VALUES (3, 'Sumaya', 2014);
+
+admin 
+
+INSERT INTO admin (a_id, a_name)
+VALUES (1, 'Admin1');
+
+INSERT INTO admin (a_id, a_name)
+VALUES (2, 'Admin2');
+
+INSERT INTO admin (a_id, a_name)
+VALUES (3, 'Admin3');
+
+
+
+manager
+ 
+INSERT INTO manager (s_phone, s_id, s_address)
+VALUES (123456789, 1, 'Khilkhet');
+
+INSERT INTO manager (s_phone, s_id, s_address)
+VALUES (987654321, 2, 'Rampura');
+
+INSERT INTO manager (s_phone, s_id, s_address)
+VALUES (456789123, 3, 'Bonani');
+
+Parents
+
+INSERT INTO parents (p_id, p_name)
+VALUES (1, 'Samira');
+
+INSERT INTO parents (p_id, p_name)
+VALUES (2, 'Ovie');
+
+INSERT INTO parents (p_id, p_name)
+VALUES (3, 'Nadia');
+
+payment 
+
+INSERT INTO payment (p_id, p_name)
+VALUES (1, 'Payment1');
+
+INSERT INTO payment (p_id, p_name)
+VALUES (2, 'Payment2');
+
+INSERT INTO payment (p_id, p_name)
+VALUES (3, 'Payment3');
+
+reports 
+
+INSERT INTO reports (p_id, p_phone)
+VALUES (1, 123456789);
+
+INSERT INTO reports (p_id, p_phone)
+VALUES (2, 987654321);
+
+INSERT INTO reports (p_id, p_phone)
+VALUES (3, 456789123);
+
+address 
+
+INSERT INTO address (p_city, p_country)
+VALUES ('Dhaka', 'Bangladesh');
+
+INSERT INTO address (p_city, p_country)
+VALUES ('Cumilla', 'Bangladesh');
+
+INSERT INTO address (p_city, p_country)
+VALUES ('khulna', 'Bangladesh');
+
+admin_info 
+
+INSERT INTO admin_info (a_id, a_phone)
+VALUES (1, 123456789);
+
+INSERT INTO admin_info (a_id, a_phone)
+VALUES (2, 987654321);
+
+INSERT INTO admin_info (a_id, a_phone)
+VALUES (3, 456789123);
+
+
+staff_info 
+
+INSERT INTO staff_info (s_id, s_name, s_address)
+VALUES (1, 'Rahim', 'Dhaka');
+
+INSERT INTO staff_info (s_id, s_name, s_address)
+VALUES (2, 'Karim', 'Dhaka');
+
+INSERT INTO staff_info (s_id, s_name, s_address)
+VALUES (3, 'Sakib', 'Dhaka');
+
+staff_contact 
+
+INSERT INTO staff_contact (s_phone, s_id)
+VALUES (123456789, 1);
+
+INSERT INTO staff_contact (s_phone, s_id)
+VALUES (987654321, 2);
+
+INSERT INTO staff_contact (s_phone, s_id)
+VALUES (456789123, 3);
+
+
+Data Insertion:
+
+
+
+staff
+
+INSERT INTO staff (s_id, s_name)
+VALUES (1, 'Rahim');
+
+INSERT INTO staff (s_id, s_name)
+VALUES (2, 'Karim');
+
+INSERT INTO staff (s_id, s_name)
+VALUES (3, 'Sakib');
+
+child
+
+INSERT INTO child (c_id, c_name, c_birthdate)
+VALUES (1, 'Ifti', 2015);
+
+INSERT INTO child (c_id, c_name, c_birthdate)
+VALUES (2, 'Seyam', 2016);
+
+INSERT INTO child (c_id, c_name, c_birthdate)
+VALUES (3, 'Sumaya', 2014);
+
+admin 
+
+INSERT INTO admin (a_id, a_name)
+VALUES (1, 'Admin1');
+
+INSERT INTO admin (a_id, a_name)
+VALUES (2, 'Admin2');
+
+INSERT INTO admin (a_id, a_name)
+VALUES (3, 'Admin3');
+
+
+
+manager
+ 
+INSERT INTO manager (s_phone, s_id, s_address)
+VALUES (123456789, 1, 'Khilkhet');
+
+INSERT INTO manager (s_phone, s_id, s_address)
+VALUES (987654321, 2, 'Rampura');
+
+INSERT INTO manager (s_phone, s_id, s_address)
+VALUES (456789123, 3, 'Bonani');
+
+Parents
+
+INSERT INTO parents (p_id, p_name)
+VALUES (1, 'Samira');
+
+INSERT INTO parents (p_id, p_name)
+VALUES (2, 'Ovie');
+
+INSERT INTO parents (p_id, p_name)
+VALUES (3, 'Nadia');
+
+payment 
+
+INSERT INTO payment (p_id, p_name)
+VALUES (1, 'Payment1');
+
+INSERT INTO payment (p_id, p_name)
+VALUES (2, 'Payment2');
+
+INSERT INTO payment (p_id, p_name)
+VALUES (3, 'Payment3');
+
+reports 
+
+INSERT INTO reports (p_id, p_phone)
+VALUES (1, 123456789);
+
+INSERT INTO reports (p_id, p_phone)
+VALUES (2, 987654321);
+
+INSERT INTO reports (p_id, p_phone)
+VALUES (3, 456789123);
+
+address 
+
+INSERT INTO address (p_city, p_country)
+VALUES ('Dhaka', 'Bangladesh');
+
+INSERT INTO address (p_city, p_country)
+VALUES ('Cumilla', 'Bangladesh');
+
+INSERT INTO address (p_city, p_country)
+VALUES ('khulna', 'Bangladesh');
+
+admin_info 
+
+INSERT INTO admin_info (a_id, a_phone)
+VALUES (1, 123456789);
+
+INSERT INTO admin_info (a_id, a_phone)
+VALUES (2, 987654321);
+
+INSERT INTO admin_info (a_id, a_phone)
+VALUES (3, 456789123);
+
+
+staff_info 
+
+INSERT INTO staff_info (s_id, s_name, s_address)
+VALUES (1, 'Rahim', 'Dhaka');
+
+INSERT INTO staff_info (s_id, s_name, s_address)
+VALUES (2, 'Karim', 'Dhaka');
+
+INSERT INTO staff_info (s_id, s_name, s_address)
+VALUES (3, 'Sakib', 'Dhaka');
+
+staff_contact 
+
+INSERT INTO staff_contact (s_phone, s_id)
+VALUES (123456789, 1);
+
+INSERT INTO staff_contact (s_phone, s_id)
+VALUES (987654321, 2);
+
+INSERT INTO staff_contact (s_phone, s_id)
+VALUES (456789123, 3);
+
+Data Insertion:
+
+
+
+staff
+
+INSERT INTO staff (s_id, s_name)
+VALUES (1, 'Rahim');
+
+INSERT INTO staff (s_id, s_name)
+VALUES (2, 'Karim');
+
+INSERT INTO staff (s_id, s_name)
+VALUES (3, 'Sakib');
+
+child
+
+INSERT INTO child (c_id, c_name, c_birthdate)
+VALUES (1, 'Ifti', 2015);
+
+INSERT INTO child (c_id, c_name, c_birthdate)
+VALUES (2, 'Seyam', 2016);
+
+INSERT INTO child (c_id, c_name, c_birthdate)
+VALUES (3, 'Sumaya', 2014);
+
+admin 
+
+INSERT INTO admin (a_id, a_name)
+VALUES (1, 'Admin1');
+
+INSERT INTO admin (a_id, a_name)
+VALUES (2, 'Admin2');
+
+INSERT INTO admin (a_id, a_name)
+VALUES (3, 'Admin3');
+
+
+
+manager
+ 
+INSERT INTO manager (s_phone, s_id, s_address)
+VALUES (123456789, 1, 'Khilkhet');
+
+INSERT INTO manager (s_phone, s_id, s_address)
+VALUES (987654321, 2, 'Rampura');
+
+INSERT INTO manager (s_phone, s_id, s_address)
+VALUES (456789123, 3, 'Bonani');
+
+Parents
+
+INSERT INTO parents (p_id, p_name)
+VALUES (1, 'Samira');
+
+INSERT INTO parents (p_id, p_name)
+VALUES (2, 'Ovie');
+
+INSERT INTO parents (p_id, p_name)
+VALUES (3, 'Nadia');
+
+payment 
+
+INSERT INTO payment (p_id, p_name)
+VALUES (1, 'Payment1');
+
+INSERT INTO payment (p_id, p_name)
+VALUES (2, 'Payment2');
+
+INSERT INTO payment (p_id, p_name)
+VALUES (3, 'Payment3');
+
+reports 
+
+INSERT INTO reports (p_id, p_phone)
+VALUES (1, 123456789);
+
+INSERT INTO reports (p_id, p_phone)
+VALUES (2, 987654321);
+
+INSERT INTO reports (p_id, p_phone)
+VALUES (3, 456789123);
+
+address 
+
+INSERT INTO address (p_city, p_country)
+VALUES ('Dhaka', 'Bangladesh');
+
+INSERT INTO address (p_city, p_country)
+VALUES ('Cumilla', 'Bangladesh');
+
+INSERT INTO address (p_city, p_country)
+VALUES ('khulna', 'Bangladesh');
+
+admin_info 
+
+INSERT INTO admin_info (a_id, a_phone)
+VALUES (1, 123456789);
+
+INSERT INTO admin_info (a_id, a_phone)
+VALUES (2, 987654321);
+
+INSERT INTO admin_info (a_id, a_phone)
+VALUES (3, 456789123);
+
+
+staff_info 
+
+INSERT INTO staff_info (s_id, s_name, s_address)
+VALUES (1, 'Rahim', 'Dhaka');
+
+INSERT INTO staff_info (s_id, s_name, s_address)
+VALUES (2, 'Karim', 'Dhaka');
+
+INSERT INTO staff_info (s_id, s_name, s_address)
+VALUES (3, 'Sakib', 'Dhaka');
+
+staff_contact 
+
+INSERT INTO staff_contact (s_phone, s_id)
+VALUES (123456789, 1);
+
+INSERT INTO staff_contact (s_phone, s_id)
+VALUES (987654321, 2);
+
+INSERT INTO staff_contact (s_phone, s_id)
+VALUES (456789123, 3);
+
+
+Joining:
+1.Equijoin :
+
+SELECT *
+FROM staff
+INNER JOIN staff_info ON staff.s_id = staff_info.s_id; 
+
+2.Outer Join :
+
+SELECT *
+FROM staff
+LEFT JOIN manager ON staff.s_id = manager.s_id;
+
+3.Outer Join :
+
+SELECT *
+FROM staff
+RIGHT JOIN manager ON staff.s_id = manager.s_id;
+
+3.Outer Join :
+
+SELECT *
+FROM staff
+RIGHT JOIN manager ON staff.s_id = manager.s_id;
+
